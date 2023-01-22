@@ -1,7 +1,8 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
 from typing import TYPE_CHECKING
 
-from modelscope.utils.import_utils import LazyImportModule, is_torch_available
+#from modelscope.utils.import_utils import LazyImportModule
+, is_torch_available
 
 if TYPE_CHECKING:
     from .base import TaskDataset

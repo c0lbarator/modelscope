@@ -2,7 +2,8 @@
 from typing import TYPE_CHECKING
 
 from modelscope.trainers.utils.log_buffer import LogBuffer
-from modelscope.utils.import_utils import LazyImportModule
+#from modelscope.utils.import_utils import LazyImportModule
+
 
 if TYPE_CHECKING:
     from .base import LoggerHook

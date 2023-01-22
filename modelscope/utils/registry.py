@@ -179,7 +179,8 @@ def build_from_cfg(cfg,
                         f'but got {type(default_args)}')
 
     # dynamic load installation requirements for this module
-    from modelscope.utils.import_utils import LazyImportModule
+    #from modelscope.utils.import_utils import LazyImportModule
+
     sig = (registry.name.upper(), group_key, cfg['type'])
     LazyImportModule.import_module(sig)
 

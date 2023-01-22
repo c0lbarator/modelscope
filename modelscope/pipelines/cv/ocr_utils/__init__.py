@@ -1,7 +1,8 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
 from typing import TYPE_CHECKING
 
-from modelscope.utils.import_utils import LazyImportModule
+#from modelscope.utils.import_utils import LazyImportModule
+
 
 if TYPE_CHECKING:
     from .model_resnet_mutex_v4_linewithchar import SegLinkDetector

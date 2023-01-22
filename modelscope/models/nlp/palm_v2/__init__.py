@@ -14,7 +14,8 @@
 # limitations under the License.
 from typing import TYPE_CHECKING
 
-from modelscope.utils.import_utils import LazyImportModule
+#from modelscope.utils.import_utils import LazyImportModule
+
 
 if TYPE_CHECKING:
     from .configuration import PalmConfig

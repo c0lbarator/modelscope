@@ -18,7 +18,8 @@ from modelscope.trainers.parallel.builder import build_parallel
 from modelscope.trainers.parallel.utils import is_parallel
 from modelscope.utils.config import Config
 from modelscope.utils.constant import DEFAULT_MODEL_REVISION
-from modelscope.utils.import_utils import LazyImportModule
+#from modelscope.utils.import_utils import LazyImportModule
+
 from modelscope.utils.registry import default_group
 
 
